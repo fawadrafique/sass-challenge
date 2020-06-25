@@ -1,0 +1,22 @@
+%message-format{
+    border: 1px solid #ccc;
+    padding: $paddingSize;
+    margin: 16px;
+    color: $color_1;
+    background-color: #000;
+}
+
+.success {
+    @extend %message-format;
+    background-color: green;
+}
+  
+.error {
+    @extend %message-format;
+    background-color: red;
+}
+  
+.warning {
+    @extend %message-format;
+    background-color: orange;
+}
