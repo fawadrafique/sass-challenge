@@ -1,19 +1,23 @@
 .red{
     background-color: $color_button;
-    margin-left: 16px;
+    border: 3px $color_3 solid;
+    margin-left: $margin;
     width: 7%;
+    font: 24px bolder;
     a{
         text-decoration: none;
-        color: $color_1;
+        color: $color_3;
     }
 }
 
 .blue{
     background-color: $color_button;
-    margin-left: 16px;
+    border: 3px $color_3 solid;
+    margin-left: $margin;
     width: 7%;
+    font: 24px bolder;
     a{ 
         text-decoration: none;
-        color: $color_1;
+        color: $color_3;
     }
 }

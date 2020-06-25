@@ -10,8 +10,8 @@ article {
 		flex-basis: 45%;
 		border: 1px silver solid;
     	@include box;
-		padding: $paddingSize;
-		margin: 16px;
+		padding: $padding;
+		margin: $margin;
 		clear: both;
 		overflow: auto;
 		box-sizing: border-box;
@@ -30,7 +30,7 @@ article {
 		margin-bottom: 1.6em;
 		max-width: 100%;
 		overflow: auto;
-		padding: $paddingSize;
+		padding: $padding;
 		display: block;
 		white-space: pre-wrap;
 	}

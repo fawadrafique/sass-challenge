@@ -2,16 +2,13 @@ h1, h2, h6 {
     color: $color_2;
 }
   
-h1, h6, h4 {
+h1, h6 {
     text-align: center;
 }
   
 h6 {
     font-size: 2em;
     margin-bottom: 0px;
-    padding: $paddingSize * 2;
+    padding: $padding * 2;
     clear: both;
-}
-h4 {
-    font-size: 1.5em;
 }
